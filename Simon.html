@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simon Says Game</title>
+    <link rel="stylesheet" href="Simon.css" />
+  </head>
+  <body>
+
+    <h1>Read Instructions</h1>
+    <p>How to Play:</p>
+        <ul>
+
+            <li>Game Start: To start a new game, press the "Start" or "New Game" button.</li>
+        
+            <li>Game Sequence: Simon will play a sequence of colors and sounds. Pay close attention to the sequence, as you'll need to repeat it later.</li>
+            
+            <li>Your Turn: After Simon's sequence, it's your turn. Use the colored buttons (usually four) to repeat the sequence in the exact same order.</li>
+            
+            <li>
+                <ol>Click or tap the buttons to repeat the sequence. For example, if Simon played Red, Green, Blue, you should click the corresponding buttons in the same order.
+                    <li>Correct Sequence: If you correctly repeat the sequence, Simon will add another step to the sequence, making it one step longer.</li>
+                    <li>Incorrect Sequence: If you make a mistake and don't repeat the sequence correctly, the game will end, and your score will be displayed.</li>
+                    <li> Winning: The goal is to reach the highest level and the longest sequence possible. Challenge yourself to see how far you can go!</li>
+                </ol>
+            </li>
+            
+        </ul>
+    <h1>Simon Says Game</h1>
+    <h2>Press any key to start the game</h2>
+    
+
+    <div class="btn-container">
+      <div class="line-one">
+        <div class="btn red" type="button" id="red">1</div>
+        <div class="btn yellow" type="button" id="yellow">2</div>
+      </div>
+      <div class="line-two">
+        <div class="btn green" type="button" id="green">3</div>
+        <div class="btn purple" type="button" id="purple">4</div>
+      </div>
+    </div>
+
+    <script src="Simon.js"></script>
+  </body>
+</html>
